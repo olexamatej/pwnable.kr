@@ -26,7 +26,7 @@ switch(op){
                 }
 ```
 
-`give_shell` method is the one, we need to call instead of introduce.
+`give_shell` method is the function we need to call instead of introduce.
 
 ```Cpp
 
