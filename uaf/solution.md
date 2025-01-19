@@ -5,7 +5,7 @@
 The uaf.cpp has a simple switch which creates 2 objects - these objects call methods from vtable
 It also reads a file of our choice and allocates that data. This program also gives us a control of which function we want to call first via switch case.
 
-```Cpp
+```C
 switch(op){
                         case 1:
                                 m->introduce();
@@ -24,7 +24,7 @@ switch(op){
                         default:
                                 break;
                 }
-                ```
+```
 
 `give_shell` method is the one, we need to call instead of introduce.
 
